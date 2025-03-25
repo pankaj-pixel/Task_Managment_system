@@ -3,6 +3,7 @@
 This is a Task Management API built using Django and Django Rest Framework (DRF). It allows users to create tasks, assign tasks to one or more users, and retrieve tasks assigned to a specific user.
 
 ## API Handling PDF To handle Request/Response Attached
+JoshTalk_TaskManagment_API_Docs.pdf(IN ZIP)
 
 ## Requirements
 
@@ -30,9 +31,10 @@ Install all required dependencies by running the following command:
 
 pip install -r requirements.txt
 Step 4: Apply database migrations
-migrations to set up the database:
+Migrations to set up the database:
 
 python manage.py migrate
+
 Step 5: Create a superuser (optional)
 To access the Django admin panel or create new users, create a superuser:
 
